@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#070b16">
+
+    <title>Gaming Name Generator - GamingTools Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="name-generator.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <a href="index.html" class="logo">
+        <span>🎮</span>
+        Gaming<span>Tools</span>
+    </a>
+
+    <a href="index.html" class="back-home">
+        ← Home
+    </a>
+
+</header>
+
+
+<main class="name-page">
+
+    <section class="name-box">
+
+        <div class="name-heading">
+
+            <div class="name-icon">
+                🏷️
+            </div>
+
+            <p class="small-title">
+                GAMING TOOL
+            </p>
+
+            <h1>
+                Gaming Name Generator
+            </h1>
+
+            <p>
+                Create unique and stylish gaming names in seconds.
+            </p>
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="playerName">
+                Enter Your Name
+            </label>
+
+            <input
+                type="text"
+                id="playerName"
+                placeholder="Example: Anshu"
+                maxlength="20"
+                autocomplete="off"
+            >
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="nameStyle">
+                Select Style
+            </label>
+
+            <select id="nameStyle">
+
+                <option value="symbols">
+                    Symbols
+                </option>
+
+                <option value="brackets">
+                    Brackets
+                </option>
+
+                <option value="pro">
+                    Pro Gamer
+                </option>
+
+                <option value="royal">
+                    Royal
+                </option>
+
+                <option value="dark">
+                    Dark
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <button
+            class="generate-name-btn"
+            onclick="generateNames()"
+        >
+            ⚡ Generate Names
+        </button>
+
+
+        <div
+            id="nameResults"
+            class="name-results"
+        >
+
+            <div class="empty-message">
+                Enter your name and generate some styles 🎮
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-logo">
+        🎮 GamingTools Hub
+    </div>
+
+    <p>
+        © 2026 GamingTools Hub. All rights reserved.
+    </p>
+
+</footer>
+
+
+<script src="name-generator.js"></script>
+
+</body>
+</html>

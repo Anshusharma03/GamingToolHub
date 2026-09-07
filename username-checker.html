@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#070b16">
+
+    <title>Username Checker - GamingTools Hub</title>
+    <meta
+    name="description"
+    content="Check gaming username format, quality and get tips for creating a better gaming username."
+>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="username-checker.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <a href="index.html" class="logo">
+        <span>🎮</span>
+        Gaming<span>Tools</span>
+    </a>
+
+    <a href="index.html" class="back-home">
+        ← Home
+    </a>
+
+</header>
+
+
+<main class="username-page">
+
+    <section class="username-box">
+
+        <div class="username-heading">
+
+            <div class="username-icon">
+                🔍
+            </div>
+
+            <p class="small-title">
+                GAMING TOOL
+            </p>
+
+            <h1>
+                Username Checker
+            </h1>
+
+            <p>
+                Check your gaming username's format and quality.
+            </p>
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="usernameInput">
+                Enter Username
+            </label>
+
+            <input
+                type="text"
+                id="usernameInput"
+                placeholder="Example: AnshuGaming"
+                maxlength="20"
+                autocomplete="off"
+            >
+
+        </div>
+
+
+        <button
+            class="check-btn"
+            onclick="checkUsername()"
+        >
+            🔍 Check Username
+        </button>
+
+
+        <div
+            id="usernameResult"
+            class="username-result hidden"
+        >
+
+            <div class="score-area">
+
+                <div
+                    id="scoreCircle"
+                    class="score-circle"
+                >
+                    0
+                </div>
+
+                <div>
+
+                    <p class="score-label">
+                        Username Score
+                    </p>
+
+                    <h2 id="scoreText">
+                        -
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div id="checks"></div>
+
+
+            <div class="suggestions">
+
+                <h3>
+                    💡 Tips
+                </h3>
+
+                <ul id="tips"></ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-logo">
+        🎮 GamingTools Hub
+    </div>
+
+    <p>
+        © 2026 GamingTools Hub. All rights reserved.
+    </p>
+
+</footer>
+
+
+<script src="username-checker.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#070b16">
+
+    <title>UID Formatter - GamingTools Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="uid-formatter.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <a href="index.html" class="logo">
+        <span>🎮</span>
+        Gaming<span>Tools</span>
+    </a>
+
+    <a href="index.html" class="back-home">
+        ← Home
+    </a>
+
+</header>
+
+
+<main class="uid-page">
+
+    <section class="uid-box">
+
+        <div class="uid-heading">
+
+            <div class="uid-icon">
+                🔢
+            </div>
+
+            <p class="small-title">
+                GAMING TOOL
+            </p>
+
+            <h1>
+                UID Formatter
+            </h1>
+
+            <p>
+                Format your gaming UID into clean, easy-to-copy formats.
+            </p>
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="uidInput">
+                Enter Gaming UID
+            </label>
+
+            <input
+                type="text"
+                id="uidInput"
+                placeholder="Example: 123456789"
+                maxlength="30"
+                inputmode="numeric"
+                autocomplete="off"
+            >
+
+        </div>
+
+
+        <button
+            class="format-btn"
+            onclick="formatUID()"
+        >
+            ⚡ Format UID
+        </button>
+
+
+        <div
+            id="uidResults"
+            class="uid-results"
+        >
+
+            <div class="empty-message">
+                Enter a UID to generate formats 🔢
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-logo">
+        🎮 GamingTools Hub
+    </div>
+
+    <p>
+        © 2026 GamingTools Hub. All rights reserved.
+    </p>
+
+</footer>
+
+
+<script src="uid-formatter.js"></script>
+
+</body>
+</html>

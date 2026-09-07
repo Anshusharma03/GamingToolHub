@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta name="google-site-verification" content="MrkOdhBX_7S1j3KxCx8_DpoTQtxksXOiuM_8NjlXmUQ" />
+  
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="theme-color"
+        content="#0b1020"
+    >
+
+    <title>Gaming Tools Hub</title>
+
+    <meta
+        name="description"
+        content="GamingTools Hub - Free gaming tools for gamers and content creators."
+    >
+
+    <meta
+        name="keywords"
+        content="gaming tools, gaming name generator, gaming bio generator, gaming hashtag generator"
+    >
+
+    <meta
+        name="author"
+        content="GamingTools Hub"
+    >
+
+    <meta
+        name="robots"
+        content="index, follow"
+    >
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+    <link
+        rel="manifest"
+        href="manifest.json"
+    >
+
+    <meta
+        name="apple-mobile-web-app-capable"
+        content="yes"
+    >
+
+    <meta
+        name="apple-mobile-web-app-status-bar-style"
+        content="black-translucent"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =========================
+     HEADER
+========================= -->
+
+<header class="header">
+
+    <a
+        href="index.html"
+        class="logo"
+    >
+        <span>🎮</span>
+        Gaming<span>Tools</span>
+    </a>
+
+
+    <nav class="nav-menu">
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="about.html">
+            About
+        </a>
+
+        <a href="contact.html">
+            Contact
+        </a>
+
+    </nav>
+
+
+    <div class="header-actions">
+
+        <button
+            id="installAppBtn"
+            class="install-app-btn"
+            type="button"
+        >
+            📲 Install
+        </button>
+
+
+        <button
+            id="menuToggle"
+            class="menu-toggle"
+            type="button"
+            aria-label="Open menu"
+        >
+            ☰
+        </button>
+
+    </div>
+
+</header>
+<!-- =========================
+     MAIN CONTENT
+========================= -->
+
+<main>
+
+
+<!-- =========================
+     HERO SECTION
+========================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <div class="badge">
+            ⚡ Free Gaming Tools
+        </div>
+
+        <h1>
+            Level Up Your
+            <span>Gaming</span>
+        </h1>
+
+        <p>
+            Powerful gaming tools, generators and calculators
+            made for gamers.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a
+                href="#tools"
+                class="btn primary"
+            >
+                🚀 Explore Tools
+            </a>
+
+            <a
+                href="#about"
+                class="btn secondary"
+            >
+                Learn More
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     SEARCH
+========================= -->
+
+<div class="tool-search">
+
+    <input
+        type="search"
+        id="toolSearch"
+        placeholder="🔍 Search gaming tools..."
+        autocomplete="off"
+    >
+
+    <div
+        id="searchMessage"
+        class="search-message"
+    ></div>
+
+</div>
+
+
+<!-- =========================
+     CATEGORY FILTERS
+========================= -->
+
+<div class="category-filters">
+
+    <button
+        class="category-btn active"
+        data-category="all"
+        type="button"
+    >
+        All
+    </button>
+
+
+    <button
+        class="category-btn"
+        data-category="name"
+        type="button"
+    >
+        👤 Name
+    </button>
+
+
+    <button
+        class="category-btn"
+        data-category="creator"
+        type="button"
+    >
+        🎬 Creator
+    </button>
+
+
+    <button
+        class="category-btn"
+        data-category="gaming"
+        type="button"
+    >
+        🎮 Gaming
+    </button>
+
+
+    <button
+        id="favoritesFilter"
+        class="favorites-filter"
+        type="button"
+    >
+        ⭐ Favorites Only
+    </button>
+
+</div>
+<!-- =========================
+     TOOLS SECTION
+========================= -->
+
+<section
+    class="tools-section"
+    id="tools"
+>
+
+    <div class="section-title">
+
+        <p class="small-title">
+            OUR TOOLS
+        </p>
+
+        <h2>
+            Gaming Tools
+        </h2>
+
+        <p>
+            Choose a tool and make your gaming experience better.
+        </p>
+
+    </div>
+
+
+    <div class="tools-grid">
+
+
+        <!-- TOOL 1 -->
+
+        <div
+            class="tool-card"
+            data-category="gaming"
+        >
+
+            <div class="tool-icon">
+                🎯
+            </div>
+
+            <h3>
+                Sensitivity Calculator
+            </h3>
+
+            <p>
+                Find suitable sensitivity settings for your game.
+            </p>
+
+            <button
+                class="favorite-btn"
+                type="button"
+            >
+                ☆ Favorite
+            </button>
+
+            <button
+                class="share-btn"
+                type="button"
+            >
+                📤 Share Tool
+            </button>
+
+            <a
+                href="sensitivity.html"
+                class="tool-btn"
+            >
+                Open Tool
+            </a>
+
+        </div>
+
+
+        <!-- TOOL 2 -->
+
+        <div
+            class="tool-card"
+            data-category="name"
+        >
+
+            <div class="tool-icon">
+                🏷️
+            </div>
+
+            <h3>
+                Gaming Name Generator
+            </h3>
+
+            <p>
+                Generate unique and stylish gaming names.
+            </p>
+
+            <button
+                class="favorite-btn"
+                type="button"
+            >
+                ☆ Favorite
+            </button>
+
+            <button
+                class="share-btn"
+                type="button"
+            >
+                📤 Share Tool
+            </button>
+
+            <a
+                href="name-generator.html"
+                class="tool-btn"
+            >
+                Open Tool
+            </a>
+
+        </div>
+
+
+        <!-- TOOL 3 -->
+
+        <div
+            class="tool-card"
+            data-category="name"
+        >
+
+            <div class="tool-icon">
+                🛡️
+            </div>
+
+            <h3>
+                Clan Name Generator
+            </h3>
+
+            <p>
+                Create powerful names for your gaming clan.
+            </p>
+
+            <button
+                class="favorite-btn"
+                type="button"
+            >
+                ☆ Favorite
+            </button>
+
+            <button
+                class="share-btn"
+                type="button"
+            >
+                📤 Share Tool
+            </button>
+
+            <a
+                href="clan-generator.html"
+                class="tool-btn"
+            >
+                Open Tool
+            </a>
+
+        </div>
+
+
+        <!-- TOOL 4 -->
+
+        <div
+            class="tool-card"
+            data-category="name"
+        >
+
+            <div class="tool-icon">
+                ✍️
+            </div>
+
+            <h3>
+                Stylish Name Generator
+            </h3>
+
+            <p>
+                Turn your name into stylish gaming text.
+            </p>
+
+            <button
+                class="favorite-btn"
+                type="button"
+            >
+                ☆ Favorite
+            </button>
+
+            <button
+                class="share-btn"
+                type="button"
+            >
+                📤 Share Tool
+            </button>
+
+            <a
+                href="stylish-name.html"
+                class="tool-btn"
+            >
+                Open Tool
+            </a>
+
+        </div>
+
+
+        <!-- TOOL 5 -->
+
+        <div
+            class="tool-card"
+            data-category="gaming"
+        >
+
+            <div class="tool-icon">
+                🔢
+            </div>
+
+            <h3>
+                UID Formatter
+            </h3>
+
+            <p>
+                Format and organize gaming IDs easily.
+            </p>
+
+            <button
+                class="favorite-btn"
+                type="button"
+            >
+                ☆ Favorite
+            </button>
+
+            <button
+                class="share-btn"
+                type="button"
+            >
+                📤 Share Tool
+            </button>
+
+            <a
+                href="uid-formatter.html"
+                class="tool-btn"
+            >
+                Open Tool
+            </a>
+
+        </div>
+
+
+        <!-- TOOL 6 -->
+
+        <div
+            class="tool-card"
+            data-category="creator"
+        >
+
+            <div class="tool-icon">
+                🖼️
+            </div>
+
+            <h3>
+                Gaming Thumbnail Maker
+            </h3>
+
+            <p>
+                Create simple gaming thumbnails directly online.
+            </p>
+
+            <button
+                class="favorite-btn"
+                type="button"
+            >
+                ☆ Favorite
+            </button>
+
+            <button
+                class="share-btn"
+                type="button"
+            >
+                📤 Share Tool
+            </button>
+
+            <a
+                href="thumbnail-maker.html"
+                class="tool-btn"
+            >
+                Open Tool
+            </a>
+
+        </div>
+
+
+        <!-- TOOL 7 -->
+
+        <div
+            class="tool-card"
+            data-category="creator"
+        >
+
+            <div class="tool-icon">
+                #️⃣
+            </div>
+
+            <h3>
+                Gaming Hashtag Generator
+            </h3>
+
+            <p>
+                Generate hashtags for gaming videos,
+                Shorts and Reels.
+            </p>
+
+            <button
+                class="favorite-btn"
+                type="button"
+            >
+                ☆ Favorite
+            </button>
+
+            <button
+                class="share-btn"
+                type="button"
+            >
+                📤 Share Tool
+            </button>
+
+            <a
+                href="hashtag-generator.html"
+                class="tool-btn"
+            >
+                Open Tool
+            </a>
+
+        </div>
+
+
+        <!-- TOOL 8 -->
+
+        <div
+            class="tool-card"
+            data-category="name"
+        >
+
+            <div class="tool-icon">
+                🔍
+            </div>
+
+            <h3>
+                Username Checker
+            </h3>
+
+            <p>
+                Check gaming username format,
+                quality and uniqueness tips.
+            </p>
+
+            <button
+                class="favorite-btn"
+                type="button"
+            >
+                ☆ Favorite
+            </button>
+
+            <button
+                class="share-btn"
+                type="button"
+            >
+                📤 Share Tool
+            </button>
+
+            <a
+                href="username-checker.html"
+                class="tool-btn"
+            >
+                Open Tool
+            </a>
+
+        </div>
+
+
+        <!-- TOOL 9 -->
+
+        <div
+            class="tool-card"
+            data-category="creator"
+        >
+
+            <div class="tool-icon">
+                📝
+            </div>
+
+            <h3>
+                Gaming Bio Generator
+            </h3>
+
+            <p>
+                Create stylish bios for your gaming profile.
+            </p>
+
+            <button
+                class="favorite-btn"
+                type="button"
+            >
+                ☆ Favorite
+            </button>
+
+            <button
+                class="share-btn"
+                type="button"
+            >
+                📤 Share Tool
+            </button>
+
+            <a
+                href="bio-generator.html"
+                class="tool-btn"
+            >
+                Open Tool
+            </a>
+
+        </div>
+
+
+    </div>
+
+</section>
+<!-- =========================
+     ABOUT SECTION
+========================= -->
+
+<section
+    class="about"
+    id="about"
+>
+
+    <div class="about-box">
+
+        <p class="small-title">
+            ABOUT US
+        </p>
+
+        <h2>
+            Built For Gamers 🎮
+        </h2>
+
+        <p>
+            Gaming Tools Hub is a collection of useful tools
+            designed to help gamers create, calculate and
+            customize their gaming experience.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+    <div class="footer-logo">
+        🎮 GamingTools Hub
+    </div>
+
+
+    <div class="footer-links">
+
+        <a href="about.html">
+            About
+        </a>
+
+        <a href="contact.html">
+            Contact
+        </a>
+
+        <a href="privacy.html">
+            Privacy Policy
+        </a>
+
+    </div>
+
+
+    <p>
+        © 2026 GamingTools Hub. All rights reserved.
+    </p>
+
+</footer>
+<!-- =========================
+     JAVASCRIPT
+========================= -->
+
+<script>
+if ("serviceWorker" in navigator) {
+
+    window.addEventListener(
+        "load",
+        function () {
+
+            navigator.serviceWorker.register(
+                "service-worker.js"
+            ).catch(function (error) {
+
+                console.log(
+                    "Service Worker Error:",
+                    error
+                );
+
+            });
+
+        }
+    );
+
+}
+</script>
+
+
+<script src="script.js"></script>
+
+<script src="search.js"></script>
+
+<script src="install.js"></script>
+
+<script src="navigation.js"></script>
+
+
+</body>
+
+</html>

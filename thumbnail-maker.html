@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#070b16">
+
+    <title>Gaming Thumbnail Maker - GamingTools Hub</title>
+    <meta
+    name="description"
+    content="Create simple gaming thumbnails and download them as PNG with GamingTools Hub."
+>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="thumbnail-maker.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <a href="index.html" class="logo">
+        <span>🎮</span>
+        Gaming<span>Tools</span>
+    </a>
+
+    <a href="index.html" class="back-home">
+        ← Home
+    </a>
+
+</header>
+
+
+<main class="thumbnail-page">
+
+    <section class="thumbnail-box">
+
+        <div class="thumbnail-heading">
+
+            <div class="thumbnail-icon">
+                🖼️
+            </div>
+
+            <p class="small-title">
+                GAMING TOOL
+            </p>
+
+            <h1>
+                Gaming Thumbnail Maker
+            </h1>
+
+            <p>
+                Create a simple gaming thumbnail and save it as PNG.
+            </p>
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="mainText">
+                Main Text
+            </label>
+
+            <input
+                type="text"
+                id="mainText"
+                placeholder="Example: BOOYAH!"
+                maxlength="24"
+            >
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="subText">
+                Subtitle
+            </label>
+
+            <input
+                type="text"
+                id="subText"
+                placeholder="Example: EPIC GAMEPLAY"
+                maxlength="35"
+            >
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="thumbnailStyle">
+                Background Style
+            </label>
+
+            <select id="thumbnailStyle">
+
+                <option value="purple">
+                    Neon Purple
+                </option>
+
+                <option value="blue">
+                    Cyber Blue
+                </option>
+
+                <option value="red">
+                    Battle Red
+                </option>
+
+                <option value="green">
+                    Toxic Green
+                </option>
+
+                <option value="dark">
+                    Dark Gaming
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="imageUpload">
+                Background Image (Optional)
+            </label>
+
+            <input
+                type="file"
+                id="imageUpload"
+                accept="image/*"
+            >
+
+        </div>
+
+
+        <button
+            class="generate-thumb-btn"
+            onclick="generateThumbnail()"
+        >
+            ⚡ Generate Thumbnail
+        </button>
+
+
+        <div class="preview-title">
+            Preview
+        </div>
+
+
+        <div class="canvas-wrapper">
+
+            <canvas
+                id="thumbnailCanvas"
+                width="1280"
+                height="720"
+            ></canvas>
+
+        </div>
+
+
+        <button
+            class="download-thumb-btn"
+            onclick="downloadThumbnail()"
+        >
+            📥 Download PNG
+        </button>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-logo">
+        🎮 GamingTools Hub
+    </div>
+
+    <p>
+        © 2026 GamingTools Hub. All rights reserved.
+    </p>
+
+</footer>
+
+
+<script src="thumbnail-maker.js"></script>
+
+</body>
+</html>

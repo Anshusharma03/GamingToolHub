@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#070b16">
+
+    <title>Stylish Name Generator - GamingTools Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylish-name.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <a href="index.html" class="logo">
+        <span>🎮</span>
+        Gaming<span>Tools</span>
+    </a>
+
+    <a href="index.html" class="back-home">
+        ← Home
+    </a>
+
+</header>
+
+
+<main class="stylish-page">
+
+    <section class="stylish-box">
+
+        <div class="stylish-heading">
+
+            <div class="stylish-icon">
+                ✍️
+            </div>
+
+            <p class="small-title">
+                GAMING TOOL
+            </p>
+
+            <h1>
+                Stylish Name Generator
+            </h1>
+
+            <p>
+                Turn your normal name into stylish gaming text.
+            </p>
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="normalName">
+                Enter Your Name
+            </label>
+
+            <input
+                type="text"
+                id="normalName"
+                placeholder="Example: Anshu"
+                maxlength="20"
+                autocomplete="off"
+            >
+
+        </div>
+
+
+        <button
+            class="generate-style-btn"
+            onclick="generateStylishNames()"
+        >
+            ✨ Generate Stylish Names
+        </button>
+
+
+        <div id="styleResults" class="style-results">
+
+            <div class="empty-message">
+                Enter your name to create stylish versions ✨
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-logo">
+        🎮 GamingTools Hub
+    </div>
+
+    <p>
+        © 2026 GamingTools Hub. All rights reserved.
+    </p>
+
+</footer>
+
+
+<script src="stylish-name.js"></script>
+
+</body>
+</html>

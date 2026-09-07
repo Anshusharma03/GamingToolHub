@@ -1,0 +1,201 @@
+.thumbnail-page {
+    min-height: calc(100vh - 70px);
+
+    padding: 60px 20px 90px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.thumbnail-box {
+    width: 100%;
+    max-width: 850px;
+
+    padding: 35px;
+
+    background: #0d1324;
+
+    border: 1px solid #1c253d;
+
+    border-radius: 22px;
+}
+
+.thumbnail-heading {
+    text-align: center;
+
+    margin-bottom: 35px;
+}
+
+.thumbnail-icon {
+    width: 65px;
+    height: 65px;
+
+    margin: 0 auto 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 18px;
+
+    background: #171e35;
+
+    font-size: 32px;
+}
+
+.thumbnail-heading h1 {
+    font-size: 34px;
+
+    margin: 5px 0 12px;
+}
+
+.thumbnail-heading > p:last-child {
+    color: #8f97ad;
+
+    font-size: 15px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: #dce1ef;
+
+    font-size: 14px;
+
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group select {
+    width: 100%;
+
+    padding: 14px;
+
+    background: #080d1b;
+
+    border: 1px solid #29334f;
+
+    border-radius: 10px;
+
+    color: white;
+
+    outline: none;
+
+    font-size: 15px;
+}
+
+.form-group input[type="text"]:focus,
+.form-group select:focus {
+    border-color: #6c63ff;
+}
+
+.form-group input[type="file"] {
+    width: 100%;
+
+    padding: 12px;
+
+    background: #080d1b;
+
+    border: 1px solid #29334f;
+
+    border-radius: 10px;
+
+    color: #9da6bb;
+}
+
+.generate-thumb-btn,
+.download-thumb-btn {
+    width: 100%;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 11px;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.generate-thumb-btn {
+    background: #6c63ff;
+}
+
+.download-thumb-btn {
+    margin-top: 18px;
+
+    background: #171e35;
+
+    border: 1px solid #303b5a;
+}
+
+.generate-thumb-btn:active,
+.download-thumb-btn:active {
+    transform: scale(0.98);
+}
+
+.preview-title {
+    margin-top: 30px;
+
+    margin-bottom: 12px;
+
+    color: #dce1ef;
+
+    font-weight: bold;
+}
+
+.canvas-wrapper {
+    width: 100%;
+
+    overflow: hidden;
+
+    border-radius: 14px;
+
+    border: 1px solid #29334f;
+
+    background: #080d1b;
+}
+
+#thumbnailCanvas {
+    display: block;
+
+    width: 100%;
+
+    height: auto;
+}
+
+.back-home {
+    color: #b9b4ff;
+
+    text-decoration: none;
+
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+
+    .thumbnail-page {
+        padding: 30px 15px 70px;
+    }
+
+    .thumbnail-box {
+        padding: 24px 18px;
+    }
+
+    .thumbnail-heading h1 {
+        font-size: 28px;
+    }
+
+}

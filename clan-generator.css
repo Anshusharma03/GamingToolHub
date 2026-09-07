@@ -1,0 +1,223 @@
+.clan-page {
+    min-height: calc(100vh - 70px);
+
+    padding: 60px 20px 90px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.clan-box {
+    width: 100%;
+    max-width: 650px;
+
+    padding: 35px;
+
+    background: #0d1324;
+
+    border: 1px solid #1c253d;
+
+    border-radius: 22px;
+}
+
+.clan-heading {
+    text-align: center;
+
+    margin-bottom: 35px;
+}
+
+.clan-icon {
+    width: 65px;
+    height: 65px;
+
+    margin: 0 auto 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 18px;
+
+    background: #171e35;
+
+    font-size: 32px;
+}
+
+.clan-heading h1 {
+    font-size: 34px;
+
+    margin: 5px 0 12px;
+}
+
+.clan-heading > p:last-child {
+    color: #8f97ad;
+
+    font-size: 15px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: #dce1ef;
+
+    font-size: 14px;
+
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+
+    padding: 14px;
+
+    background: #080d1b;
+
+    border: 1px solid #29334f;
+
+    border-radius: 10px;
+
+    color: white;
+
+    outline: none;
+
+    font-size: 15px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #6c63ff;
+}
+
+.generate-clan-btn {
+    width: 100%;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 11px;
+
+    background: #6c63ff;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    margin-top: 8px;
+}
+
+.generate-clan-btn:active {
+    transform: scale(0.98);
+}
+
+.clan-results {
+    margin-top: 30px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+.empty-message {
+    padding: 25px;
+
+    text-align: center;
+
+    color: #7f889d;
+
+    background: #080d1b;
+
+    border: 1px solid #1c253d;
+
+    border-radius: 14px;
+}
+
+.generated-clan {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 10px;
+
+    padding: 14px 16px;
+
+    background: #080d1b;
+
+    border: 1px solid #1c253d;
+
+    border-radius: 12px;
+}
+
+.generated-clan-text {
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    word-break: break-word;
+}
+
+.copy-clan-btn {
+    flex-shrink: 0;
+
+    padding: 8px 12px;
+
+    border: 1px solid #303b5a;
+
+    border-radius: 8px;
+
+    background: #151c31;
+
+    color: white;
+
+    cursor: pointer;
+}
+
+.copy-clan-btn:hover {
+    background: #6c63ff;
+}
+
+.back-home {
+    color: #b9b4ff;
+
+    text-decoration: none;
+
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+
+    .clan-page {
+        padding: 30px 15px 70px;
+    }
+
+    .clan-box {
+        padding: 24px 18px;
+    }
+
+    .clan-heading h1 {
+        font-size: 28px;
+    }
+
+    .generated-clan {
+        align-items: flex-start;
+    }
+
+}

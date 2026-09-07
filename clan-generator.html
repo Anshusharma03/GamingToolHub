@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#070b16">
+
+    <title>Clan Name Generator - GamingTools Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="clan-generator.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <a href="index.html" class="logo">
+        <span>🎮</span>
+        Gaming<span>Tools</span>
+    </a>
+
+    <a href="index.html" class="back-home">
+        ← Home
+    </a>
+
+</header>
+
+
+<main class="clan-page">
+
+    <section class="clan-box">
+
+        <div class="clan-heading">
+
+            <div class="clan-icon">
+                🛡️
+            </div>
+
+            <p class="small-title">
+                GAMING TOOL
+            </p>
+
+            <h1>
+                Clan Name Generator
+            </h1>
+
+            <p>
+                Generate powerful and unique names for your gaming clan.
+            </p>
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="clanKeyword">
+                Enter Keyword
+            </label>
+
+            <input
+                type="text"
+                id="clanKeyword"
+                placeholder="Example: Warriors"
+                maxlength="15"
+                autocomplete="off"
+            >
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="clanStyle">
+                Select Style
+            </label>
+
+            <select id="clanStyle">
+
+                <option value="pro">
+                    Pro
+                </option>
+
+                <option value="royal">
+                    Royal
+                </option>
+
+                <option value="war">
+                    Warrior
+                </option>
+
+                <option value="dark">
+                    Dark
+                </option>
+
+                <option value="short">
+                    Short
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <button
+            class="generate-clan-btn"
+            onclick="generateClanNames()"
+        >
+            ⚡ Generate Clan Names
+        </button>
+
+
+        <div
+            id="clanResults"
+            class="clan-results"
+        >
+
+            <div class="empty-message">
+                Enter a keyword and generate clan names 🛡️
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-logo">
+        🎮 GamingTools Hub
+    </div>
+
+    <p>
+        © 2026 GamingTools Hub. All rights reserved.
+    </p>
+
+</footer>
+
+
+<script src="clan-generator.js"></script>
+
+</body>
+</html>

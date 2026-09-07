@@ -1,0 +1,258 @@
+.username-page {
+    min-height: calc(100vh - 70px);
+
+    padding: 60px 20px 90px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.username-box {
+    width: 100%;
+    max-width: 650px;
+
+    padding: 35px;
+
+    background: #0d1324;
+
+    border: 1px solid #1c253d;
+
+    border-radius: 22px;
+}
+
+.username-heading {
+    text-align: center;
+
+    margin-bottom: 35px;
+}
+
+.username-icon {
+    width: 65px;
+    height: 65px;
+
+    margin: 0 auto 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 18px;
+
+    background: #171e35;
+
+    font-size: 32px;
+}
+
+.username-heading h1 {
+    font-size: 34px;
+
+    margin: 5px 0 12px;
+}
+
+.username-heading > p:last-child {
+    color: #8f97ad;
+
+    font-size: 15px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: #dce1ef;
+
+    font-size: 14px;
+
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+
+    padding: 14px;
+
+    background: #080d1b;
+
+    border: 1px solid #29334f;
+
+    border-radius: 10px;
+
+    color: white;
+
+    outline: none;
+
+    font-size: 15px;
+}
+
+.form-group input:focus {
+    border-color: #6c63ff;
+}
+
+.check-btn {
+    width: 100%;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 11px;
+
+    background: #6c63ff;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.check-btn:active {
+    transform: scale(0.98);
+}
+
+.username-result {
+    margin-top: 30px;
+
+    padding: 22px;
+
+    background: #080d1b;
+
+    border: 1px solid #1c253d;
+
+    border-radius: 16px;
+}
+
+.hidden {
+    display: none;
+}
+
+.score-area {
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid #1c253d;
+
+    margin-bottom: 15px;
+}
+
+.score-circle {
+    width: 70px;
+    height: 70px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #151c31;
+
+    border: 3px solid #6c63ff;
+
+    color: white;
+
+    font-size: 21px;
+
+    font-weight: bold;
+}
+
+.score-label {
+    color: #7f889d;
+
+    font-size: 13px;
+}
+
+#scoreText {
+    margin-top: 3px;
+
+    font-size: 20px;
+}
+
+.check-row {
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 10px;
+
+    padding: 13px 0;
+
+    border-bottom: 1px solid #1c253d;
+}
+
+.check-name {
+    color: #aab2c5;
+}
+
+.check-status {
+    font-weight: bold;
+}
+
+.good {
+    color: #61d89c;
+}
+
+.bad {
+    color: #ff6b6b;
+}
+
+.suggestions {
+    margin-top: 20px;
+}
+
+.suggestions h3 {
+    margin-bottom: 10px;
+
+    font-size: 17px;
+}
+
+.suggestions ul {
+    padding-left: 20px;
+
+    color: #8f97ad;
+
+    font-size: 14px;
+}
+
+.suggestions li {
+    margin-bottom: 7px;
+}
+
+.back-home {
+    color: #b9b4ff;
+
+    text-decoration: none;
+
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+
+    .username-page {
+        padding: 30px 15px 70px;
+    }
+
+    .username-box {
+        padding: 24px 18px;
+    }
+
+    .username-heading h1 {
+        font-size: 28px;
+    }
+
+}

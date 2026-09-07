@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#070b16">
+
+    <title>Gaming Bio Generator - GamingTools Hub</title>
+    <meta
+    name="description"
+    content="Create stylish gaming bios for your gaming profile with GamingTools Hub."
+>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bio-generator.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <a href="index.html" class="logo">
+        <span>🎮</span>
+        Gaming<span>Tools</span>
+    </a>
+
+    <a href="index.html" class="back-home">
+        ← Home
+    </a>
+
+</header>
+
+
+<main class="bio-page">
+
+    <section class="bio-box">
+
+        <div class="bio-heading">
+
+            <div class="bio-icon">
+                📝
+            </div>
+
+            <p class="small-title">
+                GAMING TOOL
+            </p>
+
+            <h1>
+                Gaming Bio Generator
+            </h1>
+
+            <p>
+                Create stylish gaming bios for your profile.
+            </p>
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="bioName">
+                Your Name
+            </label>
+
+            <input
+                type="text"
+                id="bioName"
+                placeholder="Example: Anshu"
+                maxlength="20"
+            >
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="bioGame">
+                Game
+            </label>
+
+            <input
+                type="text"
+                id="bioGame"
+                placeholder="Example: BGMI"
+                maxlength="20"
+            >
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="bioStyle">
+                Bio Style
+            </label>
+
+            <select id="bioStyle">
+
+                <option value="pro">
+                    Pro Gamer
+                </option>
+
+                <option value="attitude">
+                    Attitude
+                </option>
+
+                <option value="simple">
+                    Simple
+                </option>
+
+                <option value="killer">
+                    Killer
+                </option>
+
+                <option value="royal">
+                    Royal
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <button
+            class="generate-bio-btn"
+            onclick="generateBio()"
+        >
+            ✨ Generate Bio
+        </button>
+
+
+        <div
+            id="bioResults"
+            class="bio-results"
+        >
+
+            <div class="empty-message">
+                Enter your details and generate your bio 🎮
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-logo">
+        🎮 GamingTools Hub
+    </div>
+
+    <p>
+        © 2026 GamingTools Hub. All rights reserved.
+    </p>
+
+</footer>
+
+
+<script src="bio-generator.js"></script>
+
+</body>
+</html>
